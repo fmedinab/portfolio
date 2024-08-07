@@ -14,6 +14,21 @@
     --card-background: #26243b;
   }
 
+
+  @font-face{
+    font-family:myfont;
+    src:url(BAD.ttf);
+  }
+  /*Galaxy Fold*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px) {
+  img.icon {
+    width: 200px !important;
+    box-shadow: -30px -20px 20px rgba(227, 135, 255, 0.3),
+      0px 40px 20px rgba(255, 219, 57, 0.3),
+      30px -20px 20px rgba(118, 255, 255, 0.22) !important;
+  }
+}
+
 body{
     background: #090909;
 }
@@ -21,8 +36,8 @@ body{
     background: #000;
 }
 .card-project:hover{
-    border: 1px solid #26243b;
-    cursor: pointer;
+  border-top: solid 1px var(--purple);
+  cursor: pointer;
 }
 
 .bg-posts{
@@ -56,4 +71,28 @@ a.footer-description {
   .img_width{
     width: 15px;
     height: 15px;
+    filter: drop-shadow(1px 1px 20px #fff);
+  }
+
+
+  button.color {
+    font-size: 17px !important;
+    margin: 2rem 0 0 0;
+    font-family: var(--font);
+    font-weight: 400;
+    padding: 1rem !important;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    background-color: #a068d8;
+    box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
+    color: #fff;
+    transform: translateY(-7px);
+    cursor: pointer;
+    outline: none;
+  }
+
+  h1{
+    font-family: myfont;
   }
