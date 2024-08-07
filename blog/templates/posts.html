@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block content %}
+
+<h1>Posts in python</h1>
+
+{%for post in posts%}
+<div class="p-3">
+    <div class="card card-body bg-posts">
+        <div class="row">
+          <div class="col-3">
+            <img src="{{post.image.url}}" alt="{{post.title}}" class="img-fluid"  />
+          </div>
+          <div class="col-9">
+            <h2>{{post.title}}</h2>
+            <h3>{{post.date|date:'M d Y'|upper}}</h3>
+            <p>{{post.description|truncatechars:100}}</p>
+      
+            <a href="{% url 'posts:post_detail' post.id %}" class="btn btn-dark">{{post.title}}</a>
+          </div>
+        </div>
+      </div>
+</div>
+{% endfor %} {% endblock %}

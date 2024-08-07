@@ -1,0 +1,59 @@
+:root {
+    --font: "Inter", sans-serif;
+    --size-quote: 95px;
+    --dark-background: #03001e;
+    --yellow: #feac5e;
+    --purple: #c779d0;
+    --blue: #4bc0c8;
+    --white: #ffffff;
+    --violet: #9c6cebf3;
+    --light-yellow: #fbd485;
+    --pink: #ef629f;
+    --light-blue: #20bdff;
+    --opacity: 60%;
+    --card-background: #26243b;
+  }
+
+body{
+    background: #090909;
+}
+.bg-black{
+    background: #000;
+}
+.card-project:hover{
+    border: 1px solid #26243b;
+    cursor: pointer;
+}
+
+.bg-posts{
+    background: #2524248a;
+}
+
+.btn-text{
+    color: #e2df268a;
+}
+
+p.footer-description,
+a.footer-description {
+  font-size: 9px !important;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+
+a.footer-description {
+    margin: 0 0 0 0.3rem !important;
+  }
+
+  div.border-top-footer {
+    border-top: solid 1px var(--purple);
+    margin: 0 0 4rem 0;
+    padding: 1.5rem 1rem !important;
+  }
+
+  .img_width{
+    width: 15px;
+    height: 15px;
+  }
