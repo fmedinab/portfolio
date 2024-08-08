@@ -2,5 +2,9 @@ media
 **/__pycache__
 
 db.sqlite3
+<<<<<<< HEAD
 venv
 
+=======
+venv
+>>>>>>> origin/master

@@ -24,8 +24,12 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name ='home'),
+<<<<<<< HEAD
     path('blog/',include('blog.urls')),
     path('blog/services/',include('services.urls'))
 
+=======
+    path('blog/',include('blog.urls'))
+>>>>>>> origin/master
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
