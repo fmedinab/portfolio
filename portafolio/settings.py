@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True not in os.environ
+DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
@@ -88,7 +88,7 @@ DATABASES = {
        # 'NAME': BASE_DIR / 'db.sqlite3',
      'default':dj_database_url.config(
             
-           default='postgresql://postgres:postgres@localhost/postgres',
+           default='postgresql://portafolio_m08a_user:77H9tE75X2tPl7Frjbn5FF4ryD2vNrO6@dpg-cqhj9kg8fa8c73bt4nr0-a/portafolio_m08a',
         conn_max_age=600
        )
     
