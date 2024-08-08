@@ -10,7 +10,6 @@
     --light-yellow: #fbd485;
     --pink: #ef629f;
     --light-blue: #20bdff;
-<<<<<<< HEAD
     --opacity: 60%; 
     --card-background: #26243b;
   }
@@ -19,17 +18,13 @@
   @font-face{
     font-family:myfont;
     src:url(ViaAppia.ttf); 
-=======
     --opacity: 60%;
     --card-background: #26243b;
   }
 
-<<<<<<< HEAD
-
   @font-face{
     font-family:myfont;
     src:url(BAD.ttf);
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
   }
   /*Galaxy Fold*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 653px) {
@@ -41,11 +36,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
 body{
     background: #090909;
 }
@@ -53,18 +43,16 @@ body{
     background: #000;
 }
 .card-project:hover{
-<<<<<<< HEAD
+
   border-top: solid 1px var(--purple);
   cursor: pointer;
-=======
-<<<<<<< HEAD
+
   border-top: solid 1px var(--purple);
   cursor: pointer;
-=======
+
     border: 1px solid #26243b;
     cursor: pointer;
->>>>>>> origin/master
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
+
 }
 
 .bg-posts{
@@ -98,11 +86,7 @@ a.footer-description {
   .img_width{
     width: 15px;
     height: 15px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
-    filter: drop-shadow(1px 1px 20px #fff);
+    filter: drop-shadow(1px 1px 20px #615f5f);
   }
 
 
@@ -117,11 +101,8 @@ a.footer-description {
     border: none;
     border-radius: 45px;
     background-color: #a068d8;
-<<<<<<< HEAD
     box-shadow: 0px 15px 20px rgba(98, 65, 130, 0.3) !important;
-=======
     box-shadow: 0px 15px 20px rgba(131, 88, 175, 0.3) !important;
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
     color: #fff;
     transform: translateY(-7px);
     cursor: pointer;
@@ -130,9 +111,4 @@ a.footer-description {
 
   h1{
     font-family: myfont;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> 104f6e1c257784a25c57c29322477dcd90736966
   }
